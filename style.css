@@ -66,9 +66,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.6);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -132,9 +134,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -248,6 +252,9 @@ main {
   .btn {
     font-size: 1.7rem;
     padding: 0.5rem 1.8rem;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .btn--new {
@@ -263,5 +270,65 @@ main {
   .btn--hold {
     top: 39.3rem;
     left: 10rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    display: table;
+    width: 36rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    top: 2.5rem;
+  }
+
+  .score {
+    position: relative;
+    font-size: 4rem;
+    top: 3rem;
+  }
+
+  .current {
+    position: relative;
+    width: 75%;
+    top: 5rem;
+  }
+
+  .current-score {
+    font-size: 3.0rem;
+  }
+
+  .dice {
+    top: 40rem;
+    height: 7rem;
+    left: 18.5rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.3rem 1.7rem;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+
+  }
+
+  .btn--new {
+    top: 4rem;
+    height: 5rem;
+  }
+
+  .btn--roll {
+    top: 40.3rem;
+    left: 29.5rem;
+    width: 11rem;
+  }
+
+  .btn--hold {
+    top: 40.3rem;
+    left: 7rem;
+    width: 11rem;
   }
 }
