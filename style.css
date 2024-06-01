@@ -307,7 +307,7 @@ main {
   }
 
   .btn {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0.3rem 1.7rem;
     user-select: none;
     outline: none;
@@ -316,19 +316,21 @@ main {
   }
 
   .btn--new {
-    top: 4rem;
-    height: 5rem;
+    top: 3.5rem;
+    height: 5.5rem;
   }
 
   .btn--roll {
     top: 40.3rem;
     left: 29.5rem;
-    width: 11rem;
+    width: 10.5rem;
+    height: 6.5rem;
   }
 
   .btn--hold {
     top: 40.3rem;
     left: 7rem;
-    width: 11rem;
+    width: 10.5rem;
+    height: 6.5rem;
   }
 }
